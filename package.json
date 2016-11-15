@@ -1,0 +1,35 @@
+{
+  "name": "calendar-experiment",
+  "version": "1.0.0",
+  "description": "html and css frame for calendar",
+  "main": "server.js",
+  "engines": {
+    "node": "5.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeeteer/calendar-experiment.git"
+  },
+  "author": "coffeeteer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeeteer/calendar-experiment/issues"
+  },
+  "homepage": "https://github.com/coffeeteer/calendar-experiment#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0",
+    "path": "^0.12.7",
+    "sequelize": "^3.25.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "^1.2.0"
+  }
+}
