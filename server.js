@@ -2,7 +2,7 @@ var express      = require('express');
 var bodyParser   = require('body-parser');
 var path         = require('path');
 var cookieParser = require('cookie-parser');
-var port         = process.env.PORT || CONFIG.port;
+var port         = process.env.PORT || 3010;
 
 var app = express()
 
@@ -19,6 +19,6 @@ app.get('/', function (req, res) {
   res.render('index.html')
 })
 
-app.listen(3010, function () {
+app.listen(port, function () {
   console.log('The magic happens on port ' + port)
 })
